@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h3 {
+  margin: 0.75rem 0 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lead {
+  margin: 0.75rem 0 2rem;
+  color: #526078;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.25rem;
+  border: 1px solid #dce2eb;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 0.25rem 1rem rgb(23 32 51 / 6%);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: #e2f5f1;
+  color: #176557;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.muted {
+  margin-top: 2rem;
+  color: #68758a;
+}
